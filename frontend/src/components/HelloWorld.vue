@@ -23,6 +23,7 @@ export default {
       try {
         const response = await fetch(
           "https://2projonerepo-backend.vercel.app/"
+          // OR "http://localhost:3000/"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok.");
