@@ -7,10 +7,12 @@
 
 This repository contains two folders: one for the Node.js backend and another for the Vue.js frontend of a web application. Both the backend and frontend are deployed to separate Vercel projects. The deployment paths are configured to ensure each part of the application functions correctly within its respective project.
 
-Contents
-/backend: Contains the Node.js backend code.
-/frontend: Contains the Vue.js frontend code.
-Deployment
+## Contents
+
+/backend: Contains the Node.js backend code...
+
+/frontend: Contains the Vue.js frontend code...
+#  Deployment
 Backend Deployment: The backend is deployed to a Vercel project. You can access it at https://2projonerepo-frontend.vercel.app/.
 
 Frontend Deployment: The frontend is deployed to a separate Vercel project. You can access it at https://2projonerepo-backend.vercel.app/
