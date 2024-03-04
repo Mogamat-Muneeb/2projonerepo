@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 // Define a route
 app.get("/", (req, res) => {
-  res.send("Hello, Worldddd!");
+  res.send("Hello, Worldddd 😂 working asshole!");
 });
 
 // Start the server

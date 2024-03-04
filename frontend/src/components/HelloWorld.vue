@@ -21,7 +21,9 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await fetch("http://localhost:3000");
+        const response = await fetch(
+          "https://2projonerepo-backend.vercel.app/"
+        );
         if (!response.ok) {
           throw new Error("Network response was not ok.");
         }
